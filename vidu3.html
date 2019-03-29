@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+              <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Bootstrap&JQuery</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">FrontEnd
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Bootsrap</a></li>
+                    <li><a href="#">JQuery</a></li>
+                  </ul>
+                </li>
+                    <!-- li list item -->
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Database
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">SQLServer</a></li> </ul>
+                </li>
+
+
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Backend
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">PHP</a></li> </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav"> <!-- chia menu bar ra làm 3 -7 -->
+        <div class="list-group">
+          <a href="#" class="list-group-item active">Frontend</a>
+          <a href="#" class="list-group-item">HTML</a>
+          <a href="#" class="list-group-item">CSS</a>
+          <a href="#" class="list-group-item" >JavaScipt</a>
+          <a href="#" class="list-group-item">Bootstrap</a>
+          <a href="#" class="list-group-item">JQuery</a>
+        </div>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item active">Database</a>
+          <a href="#" class="list-group-item">SQLServer</a>
+        </div>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item active">Backend</a>
+          <a href="#" class="list-group-item">PHP</a>
+        </div>
+
+      </div>
+        
+    <div class="col-sm-9">
+      <div class="row">
+        
+        <div class="col-sm-3">
+          <img src="images/CSS.png" class="img-thumbnail" 
+          alt="css" width="600" height="500" >
+          <p>CSS</p>
+      </div>
+          
+        <div class="col-sm-3">
+          <img src="images/bootstrap.jpg" class="img-thumbnail" 
+          alt="bootstrap" width="600" height="800" >
+          <p>Bootstrap</p>
+      </div>
+
+       <div class="col-sm-3">
+          <img src="images/bootstrap.jpg" class="img-thumbnail" 
+          alt="bootstrap" width="600" height="800" >
+          <p>Bootstrap</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/bootstrap.jpg" class="img-thumbnail" 
+          alt="bootstrap" width="600" height="800" >
+          <p>Bootstrap</p>
+      </div> 
+
+      <div class="col-sm-3">
+          <img src="images/CSS.png" class="img-thumbnail" 
+          alt="css" width="600" height="500" >
+          <p>CSS</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/HTMLJ.jpg" class="img-thumbnail" 
+          alt="htmlj" width="600" height="500" >
+          <p>HTML</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/HTMLJ.jpg" class="img-thumbnail" 
+          alt="htmlj" width="600" height="500" >
+          <p>HTML</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/HTMLJ.jpg" class="img-thumbnail" 
+          alt="htmlj" width="600" height="500" >
+          <p>HTML</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/HTMLJ.jpg" class="img-thumbnail" 
+          alt="htmlj" width="600" height="500" >
+          <p>HTML</p>
+      </div>
+          
+      <div class="col-sm-3">
+          <img src="images/JSP.png" class="img-thumbnail" 
+          alt="js" width="600" height="500" >
+          <p>JavaScript</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/JSP.png" class="img-thumbnail" 
+          alt="js" width="600" height="500" >
+          <p>JavaScript</p>
+      </div>
+
+      <div class="col-sm-3">
+          <img src="images/JSP.png" class="img-thumbnail" 
+          alt="js" width="600" height="500" >
+          <p>JavaScript</p>
+      </div>
+
+<!-- div row -->    </div>
+                      </div>
+                        </div>
+
+
+
+
+</div>
+</div>
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
