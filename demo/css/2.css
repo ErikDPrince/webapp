@@ -4,11 +4,9 @@ ul {
 	padding:0;
 	overflow:hidden ;
 	background-color :#333333;
-}
+	}
 
-li {
-	float :right;
-}
+
 
 li a {
 	display: block;
@@ -17,4 +15,7 @@ li a {
 	padding: 16px;
 	text-decoration: none;
 
+}
+li a:hover {
+	background-color: #111111;	
 }

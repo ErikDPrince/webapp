@@ -1,0 +1,28 @@
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+	padding: 5px;
+	background-color: #cae8ca;
+	border : 2px solid #4CAF50;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color:  #333333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111111;
+}
